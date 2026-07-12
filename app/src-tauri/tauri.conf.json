@@ -3,16 +3,10 @@
   "plugins": {
     "shell": {
       "open": true
-    },
-    "updater": {
-      "endpoints": [
-        "https://github.com/MrTelepathic/TP-Drive/releases/latest/download/latest.json"
-      ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI4Mjk3NTE0MjE1MzRENkQKUldSdFRWTWhGSFVwdU9keDRDSEhoRHg2eHdxcGlaL3BvMEIrbVREczdsWGVoVnlEU2xlVjJJY0EK"
     }
   },
   "productName": "TP-Drive",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "identifier": "com.tpdrive.app",
   "build": {
     "beforeDevCommand": "npm run dev",

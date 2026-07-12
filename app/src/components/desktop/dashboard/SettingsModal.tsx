@@ -4,8 +4,6 @@ import { X, RotateCcw, Download, Upload, Trash2, HardDrive, Globe, Key, Copy, Ch
 import { invoke } from '@tauri-apps/api/core';
 import { open } from '@tauri-apps/plugin-shell';
 import { toast } from 'sonner';
-import { check, Update } from '@tauri-apps/plugin-updater';
-import { relaunch } from '@tauri-apps/plugin-process';
 import { useSettings } from '../../../context/SettingsContext';
 import { useConfirm } from '../../../context/ConfirmContext';
 import { useTranslation } from 'react-i18next';
